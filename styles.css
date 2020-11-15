@@ -1,0 +1,91 @@
+.sample-tutorial {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sample-container {
+    width: calc(100% - 280px);
+    height: 100%;
+    float: left;
+}
+
+/* 스프레드시트 스타일 */
+.sample-spreadsheets {
+   width: 100%;
+   height: calc(100% - 60px);
+   overflow: hidden;
+   float: left;
+}
+
+/* 수식 텍스트 상자 스타일 */
+#formulaBar {
+   bottom: 0;
+   height: 20px;
+   width: 99%;
+   position: relative;
+   float: left;
+   border: 1px solid #808080;
+   margin-bottom: 10px;
+   margin-left: 5px;
+   padding-top: 5px;
+}
+
+/* 하단 상태표시줄 스타일 */
+#statusBar {
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.options-container {
+   float: right;
+   width: 280px;
+   padding: 12px;
+   height: 100%;
+   box-sizing: border-box;
+   background: #fbfbfb;
+   overflow: auto;
+}
+
+.option-row {
+   font-size: 14px;
+   padding: 5px;
+   margin-top: 10px;
+}
+
+input {
+   padding: 4px 6px;
+}
+
+/* 텍스트 입력칸 스타일 */
+input[type="text"] {
+    width: 100px;
+}
+
+/* 숫자 입력칸 스타일 */
+input[type=number] {
+    width: 100px;
+ }
+
+/* 버튼 스타일 */
+input[type=button] {
+    width: 60px;
+    margin: 0 10px;
+}
+
+/* hr {
+   border-color: #bbb;
+   opacity: .2;
+   margin-top: 20px;
+} */
+
+body {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
